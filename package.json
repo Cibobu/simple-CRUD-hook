@@ -1,0 +1,32 @@
+{
+  "name": "react-hooks",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.7.2",
+    "formik": "^2.0.7",
+    "gh-pages": "^2.1.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-notifications": "^1.4.3",
+    "react-scripts": "^3.1.1",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
