@@ -45,7 +45,7 @@ const App = () => {
       alert("Change input the user first");
       return
     }
-    // NotificationManager.success('Success message1', 'Title here');
+    alert("Berhasil");
 		user.id = users.length + 1
 		setUsers([ ...users, user ])
 	}
